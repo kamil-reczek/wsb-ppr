@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-SimpleTable", "01-SimpleTable\01-SimpleTable.csproj", "{477CD282-F062-4551-A70C-147CA0B4760F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F24AE26B-BD7B-402E-8FA6-3F71056ADC59} = {F24AE26B-BD7B-402E-8FA6-3F71056ADC59}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperLibrary", "..\HelperLibrary\HelperLibrary\HelperLibrary.csproj", "{F24AE26B-BD7B-402E-8FA6-3F71056ADC59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Average", "02-Average\02-Average.csproj", "{4CF29C0A-EACB-4E3C-A729-EF0C0BF02973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Histogram", "03-Histogram\03-Histogram.csproj", "{0A5658B4-946F-42FC-9768-43D6EB8D9B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-SieveOfEratosthenes", "05-SieveOfEratosthenes\05-SieveOfEratosthenes.csproj", "{E3F224B4-D2D6-455A-B487-A8978734AD25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-BubbleSort", "04-BubbleSort\04-BubbleSort.csproj", "{85D17302-C03E-4F4E-AC28-0DF7E9197645}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{477CD282-F062-4551-A70C-147CA0B4760F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477CD282-F062-4551-A70C-147CA0B4760F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477CD282-F062-4551-A70C-147CA0B4760F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477CD282-F062-4551-A70C-147CA0B4760F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24AE26B-BD7B-402E-8FA6-3F71056ADC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24AE26B-BD7B-402E-8FA6-3F71056ADC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24AE26B-BD7B-402E-8FA6-3F71056ADC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24AE26B-BD7B-402E-8FA6-3F71056ADC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF29C0A-EACB-4E3C-A729-EF0C0BF02973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF29C0A-EACB-4E3C-A729-EF0C0BF02973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF29C0A-EACB-4E3C-A729-EF0C0BF02973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF29C0A-EACB-4E3C-A729-EF0C0BF02973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A5658B4-946F-42FC-9768-43D6EB8D9B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5658B4-946F-42FC-9768-43D6EB8D9B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5658B4-946F-42FC-9768-43D6EB8D9B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5658B4-946F-42FC-9768-43D6EB8D9B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3F224B4-D2D6-455A-B487-A8978734AD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F224B4-D2D6-455A-B487-A8978734AD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F224B4-D2D6-455A-B487-A8978734AD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F224B4-D2D6-455A-B487-A8978734AD25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D17302-C03E-4F4E-AC28-0DF7E9197645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D17302-C03E-4F4E-AC28-0DF7E9197645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D17302-C03E-4F4E-AC28-0DF7E9197645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D17302-C03E-4F4E-AC28-0DF7E9197645}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBBB5E82-2540-4CC1-89E7-2EBE6160514C}
+	EndGlobalSection
+EndGlobal
