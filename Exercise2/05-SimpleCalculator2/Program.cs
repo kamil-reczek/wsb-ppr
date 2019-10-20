@@ -26,7 +26,7 @@ namespace _04_SimpleCalculator
             {
                 Console.Write(msg);
                 if (char.TryParse(Console.ReadLine(), out result)) break;
-                Console.WriteLine("Operator shoud equal: +, -, /, *, %. Try again!");
+                Console.WriteLine("Operator should equal: +, -, /, *, %. Try again!");
             }
             return result;
         }
