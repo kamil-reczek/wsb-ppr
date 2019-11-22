@@ -11,7 +11,7 @@ namespace HelperLibrary
         public static readonly string DefaultErrorMessageDouble = "Not a double. Try again!";
         public static readonly string DefaultErrorMessageInt = "Not an integer. Try again!";
         public static readonly string DefaultErrorMessageChar = "Not a character. Try again!";
-        public static readonly string DefaultErrorMessateUint = "Not an unsigned integer.Try again!";
+        public static readonly string DefaultErrorMessageUint = "Not an unsigned integer. Try again!";
 
         public static readonly double DefaultValueDouble = -1.0;
         public static readonly int DefaultValueInt = -1;
@@ -146,7 +146,7 @@ namespace HelperLibrary
                 i++;
                 Console.Write(msg);
                 if (int.TryParse(Console.ReadLine(), out result) && result >= begin && result <= end) return result;
-                Console.WriteLine($"Wrong intput - provide integer in range [{begin}, {end}]");
+                Console.WriteLine($"Wrong input - provide integer in range [{begin}, {end}]");
                 Console.WriteLine($"Attempts left: {attempts - i}");
             }
             while (i < attempts);
@@ -157,7 +157,7 @@ namespace HelperLibrary
         // uint
         public static uint GetUint(string msg)
         {
-            return GetUint(msg, DefaultErrorMessateUint);
+            return GetUint(msg, DefaultErrorMessageUint);
         }
 
         public static uint GetUint(string msg, string err)
@@ -174,7 +174,7 @@ namespace HelperLibrary
 
         public static uint GetUint(string msg, int attempts)
         {
-            return GetUint(msg, DefaultErrorMessateUint, attempts, DefaultValueUint);
+            return GetUint(msg, DefaultErrorMessageUint, attempts, DefaultValueUint);
         }
 
         public static uint GetUint(string msg, string err, int attempts, uint def)
