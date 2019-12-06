@@ -19,11 +19,28 @@ namespace HelperLibrary
         public static readonly uint DefaultValueUint = 0;
 
         // double
+        /// <summary>
+        /// Asks user to provide input as double. Uses default error message.
+        /// </summary>
+        /// <remarks>
+        /// There is no attemps limit. User needs to provide proper input.
+        /// </remarks>
+        /// <param name="msg">Message displayed to the user</param>
+        /// <returns>User input as double</returns>
         public static double GetDouble(string msg)
         {
             return GetDouble(msg, DefaultErrorMessageDouble);
         }
-        
+
+        /// <summary>
+        /// Asks user to provide input as double. 
+        /// </summary>
+        /// <remarks>
+        /// There is no attemps limit. User needs to provide proper double input.
+        /// </remarks>
+        /// <param name="msg">Message displayed to the user</param>
+        /// <param name="err">Message displayed when user's input is incorrect</param>
+        /// <returns>User input as double</returns>
         public static double GetDouble(string msg, string err)
         {
             double result = 0;
@@ -36,10 +53,25 @@ namespace HelperLibrary
             return result;
         }
 
+        /// <summary>
+        /// Asks user to provide input as double. Uses default error message and default result <see cref="DefaultValueDouble"/>
+        /// </summary>
+        /// <param name="msg">Message displayed to the user</param>
+        /// <param name="attempts">Number of attempts to get correct input</param>
+        /// <returns>User input as double</returns>
         public static double GetDouble(string msg, int attempts)
         {
             return GetDouble(msg, DefaultErrorMessageDouble, attempts, DefaultValueDouble);
         }
+
+        /// <summary>
+        /// Asks user to provide input as double.
+        /// </summary>
+        /// <param name="msg">Message displayed to the user</param>
+        /// <param name="err">Message displayed when user's input is incorrect</param>
+        /// <param name="attempts">Number of attempts to get correct input</param>
+        /// <param name="def">Default value when all attempts are used</param>
+        /// <returns>User input as double</returns>
         public static double GetDouble(string msg, string err, int attempts, double def)
         {
             int i = 0;
