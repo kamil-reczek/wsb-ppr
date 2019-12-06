@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BankExample</name>
+    </assembly>
+    <members>
+        <member name="T:BankExample.BankAccount">
+            <summary>
+            Static class that represents simple bank account
+            </summary>
+        </member>
+        <member name="F:BankExample.BankAccount._balance">
+            <summary>
+            This private field holds current account balance.
+            </summary>
+        </member>
+        <member name="M:BankExample.BankAccount.Withdraw(System.Int32)">
+            <summary>
+            This method subtracts given amount of money from <see cref="F:BankExample.BankAccount._balance"/>.
+            </summary>
+            <param name="amount"></param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            When amount is less than 0 or if there is insufficient balance
+            </exception>
+        </member>
+        <member name="M:BankExample.BankAccount.GetBalance">
+            <summary>
+            Get the current <see cref="F:BankExample.BankAccount._balance"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BankExample.BankAccount.Deposit(System.Int32)">
+            <summary>
+            Adds given amount of money to current balance
+            </summary>
+            <param name="amount"></param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            When the amount is less than 0.
+            </exception>
+        </member>
+    </members>
+</doc>
