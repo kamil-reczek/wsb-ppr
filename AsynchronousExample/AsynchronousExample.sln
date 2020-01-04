@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breakfast", "Breakfast\Breakfast.csproj", "{B159E4D8-3525-49C9-A6FD-9EFA85041F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleExample1", "SimpleExample1\SimpleExample1.csproj", "{5DDD4077-DE1D-45C4-B19C-80309CFEC038}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B159E4D8-3525-49C9-A6FD-9EFA85041F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B159E4D8-3525-49C9-A6FD-9EFA85041F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B159E4D8-3525-49C9-A6FD-9EFA85041F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B159E4D8-3525-49C9-A6FD-9EFA85041F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDD4077-DE1D-45C4-B19C-80309CFEC038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDD4077-DE1D-45C4-B19C-80309CFEC038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDD4077-DE1D-45C4-B19C-80309CFEC038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDD4077-DE1D-45C4-B19C-80309CFEC038}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
